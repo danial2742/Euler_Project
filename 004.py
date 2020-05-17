@@ -1,6 +1,3 @@
-
-import math 
-
 """
 Problem Description Link: https://projecteuler.net/problem=4
 

@@ -1,5 +1,3 @@
-import sys
-
 """
 Problem Description Link: https://projecteuler.net/problem=1
 
@@ -28,11 +26,9 @@ def main(to):
 if __name__ == '__main__':
 
 	try:
-		# Command line args are in sys.argv[1], sys.argv[2] ..
-		# sys.argv[0] is the script name itself and can be ignored
-		to = int(sys.argv[1])
-	except:
+		count = int(input('Please enter a number: '))
+	except Exception as e:
 		print('Your Input is not valid. (Used Default Value: 10)')
-		to = 10
+		count = 10
 
 	main(to)

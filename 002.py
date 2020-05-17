@@ -1,5 +1,3 @@
-import sys
-
 """
 Problem Description Link: https://projecteuler.net/problem=2
 
