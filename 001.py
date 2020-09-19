@@ -31,4 +31,4 @@ if __name__ == '__main__':
 		print('Your Input is not valid. (Used Default Value: 10)')
 		count = 10
 
-	main(to)
+	main(count)
